@@ -1,0 +1,39 @@
+html,
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header {
+  text-align: center;
+  margin: 2rem;
+  font-size: 5rem;
+}
+
+.btn {
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: #333;
+  color: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+  width: 20rem;
+  height: 8rem;
+  font-size: 2.2rem;
+}
+/*# sourceMappingURL=style.css.map */

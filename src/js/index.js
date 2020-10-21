@@ -1,6 +1,3 @@
-import { quizQuestion } from "./questions";
-
-console.log("connected");
 
 const DOMSelectors = {
   quizContainer: document.querySelector(".quiz-container"),
