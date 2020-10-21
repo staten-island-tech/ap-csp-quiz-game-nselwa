@@ -1,4 +1,3 @@
-
 const DOMSelectors = {
   quizContainer: document.querySelector(".quiz-container"),
   scoreContainer: document.querySelector(".score-container"),
@@ -39,7 +38,7 @@ const quizResults = function () {
     const answerSelected = document.querySelector(
       `input[name="${question.number}"]:checked`
     ).value;
-    if (answerSelected === `${question.correctAnswer}`) {
+    if (answerSelected === `${question.answer}`) {
       score++;
     }
     DOMSelectors.scoreContainer.innerHTML = `<h1>You got ${score} questions correct!</h1>`;
