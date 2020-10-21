@@ -1,3 +1,5 @@
+
+
 const DOMSelectors = {
   quizContainer: document.querySelector(".quiz-container"),
   scoreContainer: document.querySelector(".score-container"),
