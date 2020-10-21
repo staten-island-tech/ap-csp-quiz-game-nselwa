@@ -15,16 +15,21 @@ body {
   font-size: 62.5%;
 }
 body {
+  font-size: 3rem;
 }
-.container {
-  display: flex;
-  flex-direction: row;
-}
-
-.header {
+.main-container {
   text-align: center;
-  margin: 2rem;
-  font-size: 5rem;
+}
+.quiz-title {
+  margin-top: 2rem;
+}
+.quiz-container {
+}
+.question {
+}
+.answer {
+}
+.score-container {
 }
 .btn {
   border-radius: 2rem;
@@ -37,4 +42,6 @@ body {
   width: 20rem;
   height: 8rem;
   font-size: 2.2rem;
+}
+.submit-btn {
 }
