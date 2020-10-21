@@ -4,7 +4,7 @@ const quizQuestion = [
   {
     question: "",
     number: "1",
-    choices: {
+    choice: {
       a: "",
       b: "",
       c: "",
@@ -15,7 +15,7 @@ const quizQuestion = [
   {
     question: "",
     number: "2",
-    choices: {
+    choice: {
       a: "",
       b: "",
       c: "",
@@ -26,7 +26,7 @@ const quizQuestion = [
   {
     question: "",
     number: "3",
-    choices: {
+    choice: {
       a: "",
       b: "",
       c: "",
@@ -37,7 +37,7 @@ const quizQuestion = [
   {
     question: "",
     number: "4",
-    choices: {
+    choice: {
       a: "",
       b: "",
       c: "",
@@ -48,7 +48,7 @@ const quizQuestion = [
   {
     question: "",
     number: "5",
-    choices: {
+    choice: {
       a: "",
       b: "",
       c: "",
@@ -59,7 +59,7 @@ const quizQuestion = [
   {
     question: "",
     number: "6",
-    choices: {
+    choice: {
       a: "",
       b: "",
       c: "",
@@ -70,7 +70,7 @@ const quizQuestion = [
   {
     question: "",
     number: "7",
-    choices: {
+    choice: {
       a: "",
       b: "",
       c: "",
@@ -81,7 +81,7 @@ const quizQuestion = [
   {
     question: "",
     number: "8",
-    choices: {
+    choice: {
       a: "",
       b: "",
       c: "",
@@ -92,7 +92,7 @@ const quizQuestion = [
   {
     question: "",
     number: "9",
-    choices: {
+    choice: {
       a: "",
       b: "",
       c: "",
@@ -103,7 +103,7 @@ const quizQuestion = [
   {
     question: "",
     number: "10",
-    choices: {
+    choice: {
       a: "",
       b: "",
       c: "",
