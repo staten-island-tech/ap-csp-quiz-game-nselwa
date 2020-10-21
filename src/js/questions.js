@@ -1,3 +1,5 @@
+export { quizQuestion };
+
 const quizQuestion = [
   {
     question: "",
