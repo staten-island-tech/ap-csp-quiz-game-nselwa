@@ -1,5 +1,3 @@
-export { quizQuestion };
-
 const quizQuestion = [
   {
     question: " '#' Commonly known as a hashtag, its technical neam is?",
