@@ -6,45 +6,40 @@ body {
   font-size: 62.5%;
 }
 body {
-}
-html,
-body {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-size: 62.5%;
-}
-body {
+  background-color: #fa9191;
+  color: #af0a0a;
   font-size: 3rem;
+  font-family: "Poppins", sans-serif;
 }
 .main-container {
   text-align: center;
 }
 .quiz-title {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 .quiz-container {
   margin: 1rem auto;
   border-radius: 2rem;
-  background-color: #fa9191;
-  color: #af0a0a;
-  width: 5rem;
-  height: 5rem;
   font-size: 3rem;
+}
+.question {
+  margin: 2rem;
+}
+.answer {
+  font-family: "Hind Siliguri", sans-serif;
 }
 .score-container {
 }
 .btn {
   border-radius: 2rem;
-  padding: 1rem;
   margin: 1rem auto;
-  background-color: #333;
+  background-color: #af0a0a;
   color: white;
   transition: all 0.3s;
   border: none;
   width: 20rem;
   height: 8rem;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 .submit-btn {
 }

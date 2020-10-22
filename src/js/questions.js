@@ -2,7 +2,8 @@ export { quizQuestion };
 
 const quizQuestion = [
   {
-    question: " '#' Commonly known as a hashtag, its technical name is?",
+    question:
+      " '#' is commonly known as a hashtag, what is its techincal name?",
     number: "1",
     choice: {
       a: "Pound",
@@ -72,7 +73,7 @@ const quizQuestion = [
     answer: "Denmark",
   },
   {
-    question: "What is the loudest animal in the Earth?",
+    question: "What is the loudest animal on Earth?",
     number: "8",
     choice: {
       a: "Fish",
