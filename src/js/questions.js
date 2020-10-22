@@ -2,7 +2,7 @@ export { quizQuestion };
 
 const quizQuestion = [
   {
-    question: " '#' Commonly known as a hashtag, its technical neam is?",
+    question: " '#' Commonly known as a hashtag, its technical name is?",
     number: "1",
     choice: {
       a: "Pound",
