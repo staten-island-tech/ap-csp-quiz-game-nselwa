@@ -1,3 +1,5 @@
+import { quizQuestion } from "./questions";
+
 const DOMSelectors = {
   quizContainer: document.querySelector(".quiz-container"),
   scoreContainer: document.querySelector(".score-container"),
@@ -21,12 +23,7 @@ const init = function () {
       <h4 class= "answer">
         <label for="${item.choice}">${item.choice.c}</label>
         <input type="radio" name="${item.number}" value="${item.choice.c}"  
-      </h4>
-      <h5 class= "answer">
-        <label for="${item.choice}">${item.choice.d}</label>
-        <input type="radio" name="${item.number}" value="${item.choice.d}"  
-      </h5>
-      
+      </h4>      
       `
     )
   );
