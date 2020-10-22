@@ -1,28 +1,33 @@
 html,
 body {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-size: 62.5%;
 }
-body {
-}
+
 html,
 body {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-size: 62.5%;
 }
+
 body {
   font-size: 3rem;
 }
+
 .main-container {
   text-align: center;
 }
+
 .quiz-title {
   margin-top: 2rem;
 }
+
 .quiz-container {
   margin: 1rem auto;
   border-radius: 2rem;
@@ -32,19 +37,18 @@ body {
   height: 5rem;
   font-size: 3rem;
 }
-.score-container {
-}
+
 .btn {
   border-radius: 2rem;
   padding: 1rem;
   margin: 1rem auto;
   background-color: #333;
   color: white;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
   width: 20rem;
   height: 8rem;
   font-size: 2.2rem;
 }
-.submit-btn {
-}
+/*# sourceMappingURL=style.css.map */
