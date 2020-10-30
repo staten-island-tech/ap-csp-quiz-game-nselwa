@@ -9,9 +9,10 @@ const DOMSelectors = {
 const init = function () {
   quizQuestion.forEach((item) =>
     DOMSelectors.quizContainer.insertAdjacentHTML(
+      //insert question from array into html
       "beforeend",
       `
-      <div class= "question" id="${item.number}">Number ${item.number}: ${item.question}</div>
+      <div class= "question" id="${item.number}">Question ${item.number}: ${item.question}</div>
       <div class= "answer">
         <label for="${item.choice}">${item.choice.a}</label>
         <input type="radio" name="${item.number}" value="${item.choice.a}"  
@@ -31,16 +32,19 @@ const init = function () {
 
 const quizResults = function () {
   let score = 0;
+  //creates a variable called score
   quizQuestion.forEach((question) => {
     const answerSelected = document.querySelector(
       `input[name="${question.number}"]:checked`
     ).value;
     if (answerSelected === `${question.answer}`) {
       score++;
+      //if the question is correct, increment score by 1
     }
     DOMSelectors.scoreContainer.innerHTML = `<h1>You got ${score} questions correct!</h1>`;
   });
-  DOMSelectors.submitButton.addEventListener("click", quizResults);
 };
+
+DOMSelectors.submitButton.addEventListener("click", quizResults);
 
 init();
