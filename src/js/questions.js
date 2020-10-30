@@ -1,5 +1,3 @@
-export { quizQuestion };
-
 const quizQuestion = [
   {
     question: " '#' Commonly known as a hashtag, its technical name is?",
@@ -102,3 +100,5 @@ const quizQuestion = [
     answer: "September 9th",
   },
 ];
+
+export {quizQuestion};

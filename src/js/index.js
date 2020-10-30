@@ -1,4 +1,4 @@
-import { quizQuestion } from "./questions";
+import {quizQuestion} from "./questions";
 
 const DOMSelectors = {
   quizContainer: document.querySelector(".quiz-container"),
